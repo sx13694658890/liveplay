@@ -1,0 +1,45 @@
+.add-question{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .quersion-body{
+        margin-top: 80PX;
+        width: 90%;
+        background: #FFF;
+        border-radius: 4PX;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        .quest_title,.quest_text{
+            border-bottom: 1PX solid #ccc;
+            margin: 10PX 0;
+            padding: 10PX 0;
+            width: 90%;
+        }
+        .taro-textarea{
+            resize: none;
+        }
+        .quest_text{
+            margin-bottom: 20PX;
+            outline: none;
+           
+        }
+        .btn-group{
+             
+              width: 90%;
+              margin-bottom: 10PX;
+              display: flex;
+              taro-button-core+taro-button-core{
+                margin: 0;
+            }  
+            .btn_quesetions{
+                width: 45%;
+            }
+        }
+       
+    }
+
+}
